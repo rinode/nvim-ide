@@ -78,6 +78,21 @@ To add a new list, create a file in `cheatsheets/` and add an entry to the `MENU
 | `<leader>ca` | Code action |
 | `<leader>f` | Format file |
 
+### Claude Code (`<leader>a`)
+
+| Key | Action |
+|-----|--------|
+| `<leader>ac` | Toggle Claude terminal |
+| `<leader>af` | Focus Claude terminal |
+| `<leader>ar` | Resume last session |
+| `<leader>aC` | Continue last session |
+| `<leader>am` | Select model |
+| `<leader>ab` | Add current buffer to context |
+| `<leader>as` | Send visual selection to Claude |
+| `<leader>as` | Add file (in neo-tree) |
+| `<leader>aa` | Accept diff |
+| `<leader>ad` | Deny diff |
+
 ## Customization
 
 - **tmux config**: `tmux/tmux.conf`
