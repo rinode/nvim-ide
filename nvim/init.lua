@@ -147,11 +147,11 @@ require("lazy").setup({
 
   -- Colorscheme
   {
-    "ficd0/ashen.nvim",
+    "ptdewey/darkearth-nvim",
     lazy = false,
     priority = 1000,
     config = function()
-      vim.cmd("colorscheme ashen")
+      vim.cmd("colorscheme darkearth")
     end,
   },
 
