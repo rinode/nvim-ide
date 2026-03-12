@@ -145,6 +145,16 @@ require("lazy").setup({
     },
   },
 
+  -- Colorscheme
+  {
+    "ficd0/ashen.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      vim.cmd("colorscheme ashen")
+    end,
+  },
+
   -- Buffer tab bar
   {
     "akinsho/bufferline.nvim",
