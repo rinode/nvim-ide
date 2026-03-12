@@ -1,5 +1,7 @@
 vim.opt.swapfile = false
 vim.g.mapleader = " "
+vim.opt.laststatus = 3
+vim.opt.fillchars:append({ horiz = "─", horizup = "┴", horizdown = "┬", vertleft = "┤", vertright = "├", verthoriz = "┼" })
 
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
