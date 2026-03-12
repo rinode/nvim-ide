@@ -6,10 +6,10 @@ A self-contained terminal workspace: Neovim + Claude Code + tmux, configured fro
 
 ## Requirements
 
-- tmux
-- nvim
+- tmux >= 3.2
+- nvim >= 0.11
 - claude (Claude Code CLI)
-- fzf
+- fzf >= 0.27
 - curl, unzip (for font install)
 
 ## Setup
