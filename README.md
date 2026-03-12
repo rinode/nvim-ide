@@ -2,6 +2,8 @@
 
 A self-contained terminal workspace: Neovim + Claude Code + tmux, configured from a single repo.
 
+![tui-ide example](example.png)
+
 ## Requirements
 
 - tmux
